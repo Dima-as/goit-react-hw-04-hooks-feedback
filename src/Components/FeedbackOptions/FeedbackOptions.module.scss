@@ -1,0 +1,18 @@
+.list {
+  display: flex;
+}
+.item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.btn {
+  border: 1px solid dodgerblue;
+  color: dodgerblue;
+  &:hover,
+  &:focus {
+    color: #fff;
+    background: dodgerblue;
+    border: 1px solid dodgerblue;
+  }
+}
